@@ -1,0 +1,16 @@
+{
+  "namePage": {
+    "welcome": "Welcome to JPetStore"
+  },
+
+  "link": {
+    "openSite": "Enter the Store",
+    "loginPage": "Sign In",
+    "signUpPage": "Register Now!"
+  },
+
+  "button": {
+    "search": "Search",
+    "signIn": "Sign In"
+  }
+}
