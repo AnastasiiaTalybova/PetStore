@@ -19,11 +19,4 @@
 module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
-  on('after:run', (results) => {
-
-    if (results) {
-      console.log(results.totalPassed, 'out of', results.totalTests, 'passed')
-    }
-  })
 }
-
