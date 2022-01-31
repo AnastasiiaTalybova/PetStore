@@ -26,7 +26,7 @@ describe('Sign Up', () => {
 
   it('Go to Registration page', () => {
     site.loginPage().should('be.visible').should('contain', data.link.loginPage).click();
-    signIn.openSignUpPage().should('be.visible').should('contain', data.link.signUpPage).click();
+    signIn.openSignUpPage().should('be.visible').should('contain', data.link.loginPage).click();
   })
 
   it('Contains fields on Registration page', () => {
