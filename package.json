@@ -4,7 +4,7 @@
   "description": "cypress tests with allure reporter",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --spec 'cypress/integration/*' --reporter mocha-allure-reporter --record --key 0edc28c1-e051-4c91-8080-e7061de68729 --parallel --group 1-group",
+    "test": "cypress run --spec 'cypress/integration/*' --reporter mocha-allure-reporter",
     "report": "./node_modules/.bin/allure generate allure-results --clean -o allure-report",
     "open": "./node_modules/.bin/cypress open",
     "wipe": "rm -rf allure-results/ allure-report/",
