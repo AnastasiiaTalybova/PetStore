@@ -12,8 +12,8 @@
     "clean:reports": "rm -R -f cypress/reports && mkdir cypress/reports && mkdir cypress/reports/mochareports ",
     "pretest": "npm run clean:reports",
     "scripts": "cypress run",
-    "combine-reports": "npx mochawesome-merge cypress/reports/mocha/*.json > cypress/reports/mochareports/report.json",
-    "generate-report": "npx marge cypress/reports/mochareports/report.json -f report -o cypress/reports/mochareports -- inline",
+    "combine-reports": "npm mochawesome-merge cypress/reports/mocha/*.json > cypress/reports/mochareports/report.json",
+    "generate-report": "npm marge cypress/reports/mochareports/report.json -f report -o cypress/reports/mochareports -- inline",
     "posttest": "npm run combine-reports && npm run generate-report"
   },
   "dependencies": {
