@@ -1,5 +1,5 @@
 {
-    "name": "cypress-tests-with-allure-reporter",
+  "name": "cypress-tests-with-allure-reporter",
   "version": "1.0.0",
   "description": "cypress tests with allure reporter",
   "main": "index.js",
