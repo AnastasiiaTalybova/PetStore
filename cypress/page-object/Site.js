@@ -12,11 +12,15 @@ export class Site {
   }
 
   logo() {
-    return cy.get('#LogoContent').find('img')
+    return cy.get('#LogoContent').find('[src="../images/logo-topbar.gif"]')
   }
 
   searchButton() {
     return cy.get('[name="searchProducts"]')
+  }
+
+  searchField() {
+    return cy.get('[name="keyword"]')
   }
 
   loginPage() {
@@ -50,4 +54,37 @@ export class Site {
   horizontalMenuBirds() {
     return cy.get('#QuickLinks').find('a').find('[src="../images/sm_birds.gif"]')
   }
+
+  welcomeUser() {
+    return cy.get('#WelcomeContent')
+  }
+
+  sidebarFish() {
+    return cy.get('#SidebarContent').find('a').find('[src="../images/fish_icon.gif"]')
+  }
+
+  sidebarDogs() {
+    return cy.get('#SidebarContent').find('a').find('[src="../images/dogs_icon.gif"]')
+  }
+
+  sidebarReptiles() {
+    return cy.get('#SidebarContent').find('a').find('[src="../images/reptiles_icon.gif"]')
+  }
+
+  sidebarCats() {
+    return cy.get('#SidebarContent').find('a').find('[src="../images/cats_icon.gif"]')
+  }
+
+  sidebarBirds() {
+    return cy.get('#SidebarContent').find('a').find('[src="../images/birds_icon.gif"]')
+  }
+
+  sidebarOthers() {
+    return cy.get('#SidebarContent')
+  }
+
+  pictureMenu() {
+    return cy.get('#MainImageContent').find('[src="../images/splash.gif"]')
+  }
+
 }

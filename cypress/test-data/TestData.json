@@ -1,6 +1,7 @@
 {
   "namePage": {
-    "welcome": "Welcome to JPetStore"
+    "welcome": "Welcome to JPetStore",
+    "welcomeUser": "Welcome "
   },
 
   "link": {
@@ -12,6 +13,84 @@
 
   "button": {
     "search": "Search",
-    "signIn": "Sign In"
+    "signIn": "Sign In",
+    "SaveNewAccount": "Save Account Information",
+    "login": "Login"
+  },
+
+  "registrationForm": {
+    "userInfo": "User Information",
+    "accountInfo": "Account Information",
+    "profileInfo": "Profile Information",
+    "userID": "User ID:",
+    "newPassword": "New password:",
+    "repeatPassword": "Repeat password:",
+    "firstName": "First name:",
+    "lastName": "Last name:",
+    "email": "Email:",
+    "phone": "Phone:",
+    "address1": "Address 1:",
+    "address2": "Address 2:",
+    "city": "City:",
+    "state": "State:",
+    "zip": "Zip:",
+    "country": "Country:",
+    "language": "Language Preference:",
+    "favouriteCategory": "Favourite Category:",
+    "myList": "Enable MyList",
+    "myBanner": "Enable MyBanner"
+  },
+
+  "languageSelect": {
+    "english": "english",
+    "japanese": "japanese"
+  },
+
+  "languageSelectValue": {
+    "english": "english",
+    "japanese": "japanese"
+  },
+
+  "categorySelect": {
+    "fish": "FISH",
+    "dogs": "DOGS",
+    "reptiles": "REPTILES",
+    "cats": "CATS",
+    "birds": "BIRDS"
+  },
+
+  "categorySelectValue": {
+    "fish": "FISH",
+    "dogs": "DOGS",
+    "reptiles": "REPTILES",
+    "cats": "CATS",
+    "birds": "BIRDS"
+  },
+
+  "infoText": {
+    "loginPage": "Please enter your username and password."
+  },
+
+  "loginForm": {
+    "username": "Username:",
+    "password": "Password:"
+  },
+
+  "color": {
+    "green": "rgb(0, 94, 33)",
+    "white": "rgb(255, 255, 255)",
+    "black1": "rgb(51, 51, 51)",
+    "black2": "rgb(34, 34, 34)",
+    "black3": "rgb(0, 0, 0)",
+    "black4": "rgba(0, 0, 0, 0)",
+    "grey1": "rgb(236, 236, 236)"
+  },
+
+  "sidebar": {
+    "fish": "Saltwater, Freshwater",
+    "dogs": "Various Breeds",
+    "cats": "Various Breeds, Exotic Varieties",
+    "reptiles": "Lizards, Turtles, Snakes",
+    "birds": "Exotic Varieties"
   }
 }
