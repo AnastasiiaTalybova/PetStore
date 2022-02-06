@@ -87,4 +87,12 @@ export class Site {
     return cy.get('#MainImageContent').find('[src="../images/splash.gif"]')
   }
 
+  header() {
+    return cy.get('#Header')
+  }
+
+  footer() {
+    return cy.get('#Footer')
+  }
+
 }

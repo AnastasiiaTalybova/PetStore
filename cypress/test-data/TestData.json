@@ -83,7 +83,9 @@
     "black2": "rgb(34, 34, 34)",
     "black3": "rgb(0, 0, 0)",
     "black4": "rgba(0, 0, 0, 0)",
-    "grey1": "rgb(236, 236, 236)"
+    "grey1": "rgb(236, 236, 236)",
+    "darkGrey": "rgb(102, 102, 102)",
+    "orange": "rgb(234, 172, 0)"
   },
 
   "sidebar": {
