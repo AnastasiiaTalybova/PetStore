@@ -244,7 +244,7 @@ describe('Sign Up page', () => {
     signUp.countryField().should('have.css', 'background-color', data.color.white);
 
     //fields for profileInfo
-    /*signUp.language().should('contain', data.registrationForm.language).should('have.css', 'color', data.color.black1);
+    signUp.language().should('contain', data.registrationForm.language).should('have.css', 'color', data.color.black1);
     signUp.language().should('contain', data.registrationForm.language).should('have.css', 'background-color', data.color.grey1);
     signUp.languageSelect().should('have.css', 'color', data.color.black3);
     signUp.languageSelect().should('have.css', 'background-color', data.color.white);
@@ -264,7 +264,7 @@ describe('Sign Up page', () => {
     signUp.myBanner().should('contain', data.registrationForm.myBanner).should('have.css', 'background-color', data.color.grey1);
     signUp.myBannerCheckbox().should('be.visible').check();
     signUp.myBannerCheckbox().should('be.checked').should('have.css', 'color', data.color.black3);
-    signUp.myBannerCheckbox().should('be.checked').should('have.css', 'background-color', data.color.black4);*/
+    signUp.myBannerCheckbox().should('be.checked').should('have.css', 'background-color', data.color.black4);
   })
 })
 
