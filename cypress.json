@@ -19,5 +19,5 @@
   "screenshotsFolder": "cypress/reports/mochareports/assets",
   "env": {
     "allureResultsPath": "./allure-results"
-  },
+  }
 }
