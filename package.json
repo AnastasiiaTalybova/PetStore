@@ -4,6 +4,7 @@
   "description": "cypress tests with allure reporter",
   "main": "index.js",
   "scripts": {
+    "test": "cypress run --spec 'cypress/integration/*' --reporter mocha-allure-reporter",
     "report": "run-s report:*",
     "report:merge": "mochawesome-merge --reportDir cypress/results/json > cypress/results/mochawesome-bundle.json",
     "report:generate": "marge cypress/results/mochawesome-bundle.json -o cypress/reports/html",
