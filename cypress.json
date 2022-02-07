@@ -16,5 +16,8 @@
     },
   "video": true,
   "screenshotOnRunFailure": true,
-  "screenshotsFolder": "cypress/reports/mochareports/assets"
+  "screenshotsFolder": "cypress/reports/mochareports/assets",
+  "env": {
+    "allureResultsPath": "./allure-results"
+  },
 }
