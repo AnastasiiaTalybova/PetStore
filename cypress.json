@@ -3,6 +3,18 @@
   "baseUrl": "https://petstore.octoperf.com",
   "ignoreTestFiles": ["**/1-getting-started/*", "**/2-advanced-examples/*"],
 
-  "env": {
-    "allureResultsPath": "./allure-results"
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  },
+    "reporterEnabled": "mochawesome", 
+    "mochawesomeReporterOptions": { 
+        "reportDir": "cypress/results/json", 
+        "overwrite": false, 
+        "html": false, 
+        "json": true 
+    },
+  "video": true,
+  "screenshotOnRunFailure": true,
+  "screenshotsFolder": "cypress/reports/mochareports/assets"
 }
