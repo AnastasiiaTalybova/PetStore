@@ -8,7 +8,7 @@ const site = new Site();
 const signUp = new SignUp();
 const signIn = new SignIn();
 
-/*describe('Contains elements on pages at site', () => {
+describe('Contains elements on pages at site', () => {
 
   before('Site opens', () => {
     site.visit();
@@ -46,4 +46,4 @@ const signIn = new SignIn();
     site.pictureMenu().should('be.visible');
   })
 
-})*/
+})

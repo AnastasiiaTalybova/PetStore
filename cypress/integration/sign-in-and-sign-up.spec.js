@@ -8,7 +8,7 @@ const site = new Site();
 const signUp = new SignUp();
 const signIn = new SignIn();
 
-/*describe('Sign In page', () => {
+describe('Sign In page', () => {
 
   before('Site opens', () => {
     site.visit();
@@ -331,4 +331,4 @@ describe('Register and Login as a New User', () => {
     signIn.buttonLogin().should('be.visible').should('contain', data.button.login).click();
     site.welcomeUser().should('contain', `${data.namePage.welcomeUser}`+`${user.firstName}`)
   })
-})*/
+})
