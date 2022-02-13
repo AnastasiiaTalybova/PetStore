@@ -10,7 +10,6 @@ describe('Work with File', () => {
   it('File Uploader', () => {
     internet.fileUploaderVisit();
     internet.titleUpload().should('be.visible').should('contain', data.titlePage.uploader);
-    cy.reload();
     internet.fileSelect().should('be.visible').attachFile(data.nameFile.upload, {subjectType: 'drag-n-drop'});
     internet.buttonUpload().should('be.visible').should('contain', data.button.upload).click();
     internet.resultUpload().should('contain', data.titleInfo.upload).should('contain', data.nameFile.upload);
