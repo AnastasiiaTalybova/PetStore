@@ -6,7 +6,7 @@ const data = TestDataTheInternet;
 const internet = new TheInternet();
 const dataMock = loginResponse;
 
-describe('Work with File', () => {
+/*describe('Work with File', () => {
   it('File Uploader', () => {
     internet.fileUploaderVisit();
     internet.titleUpload().should('be.visible').should('contain', data.titlePage.uploader);
@@ -14,7 +14,7 @@ describe('Work with File', () => {
     internet.buttonUpload().should('be.visible').should('contain', data.button.upload).click();
     internet.resultUpload().should('contain', data.titleInfo.upload).should('contain', data.nameFile.upload);
   })
-})
+})*/
 
 describe('Work with Slider', () => {
   it('Horizontal Slider', () => {
