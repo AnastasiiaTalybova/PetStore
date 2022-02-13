@@ -1,0 +1,25 @@
+{
+  "nameFile": {
+    "upload": "picture.png"
+  },
+  "titlePage": {
+    "uploader": "File Uploader",
+    "horizontalSlider": "Horizontal Slider",
+    "addRemoveElement": "Add/Remove Elements"
+  },
+  "titleInfo": {
+    "upload": "picture.png"
+  },
+  "button": {
+    "upload": "Upload",
+    "addElement": "Add Element",
+    "deleteElement": "Delete"
+  },
+  "color": {
+    "green": "rgb(92, 184, 92)",
+    "white": "rgb(255, 255, 255)"
+  },
+  "conduit": {
+    "buttonLogin": "Sign in"
+  }
+}

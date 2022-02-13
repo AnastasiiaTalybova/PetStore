@@ -17,17 +17,7 @@ describe('Contains elements on pages at site', () => {
   })
 
   beforeEach('Contains logo, menu, search and horizontal menu', () => {
-    site.logo().should('be.visible');
-    site.cart().should('be.visible');
-    site.loginPage().should('be.visible').should('contain', data.link.loginPage);
-    site.help().should('be.visible').should('contain', data.link.help);
-    site.searchField().should('be.visible');
-    site.searchButton().should('be.visible').should('contain', data.button.search);
-    site.horizontalMenuFish().should('be.visible');
-    site.horizontalMenuDogs().should('be.visible');
-    site.horizontalMenuReptiles().should('be.visible');
-    site.horizontalMenuCats().should('be.visible');
-    site.horizontalMenuBirds().should('be.visible');
+    cy.checkMainPageElements();
   })
 
   it('Check color for elements at Catalog page', () => {
